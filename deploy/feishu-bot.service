@@ -1,0 +1,24 @@
+# Systemd服务配置 - 飞书机器人
+# 路径: /etc/systemd/system/feishu-bot.service
+
+[Unit]
+Description=Feishu Bot Server (Epic)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/epic-bot
+Environment="PATH=/root/epic-bot/.venv/bin"
+Environment="COZE_WORKSPACE_PATH=/root/epic-bot"
+ExecStart=/root/epic-bot/.venv/bin/python -m tools.feishu_app_bot.server
+Restart=always
+RestartSec=10
+
+# 日志输出
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=feishu-bot
+
+[Install]
+WantedBy=multi-user.target
