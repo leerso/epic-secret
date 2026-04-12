@@ -13,6 +13,7 @@ from storage.memory.memory_saver import get_memory_saver
 from tools.file_tools import read_file, write_file, list_files
 from tools.reminder_tools import add_reminder, list_reminders, complete_reminder, delete_reminder
 from tools.memory_tools import save_memory, search_memories, list_all_categories, delete_memory, get_relevant_memories
+from tools.memory_tools_v2 import save_memory_v2, search_memories_compact, get_memory_detail, get_memory_stats
 
 LLM_CONFIG = "config/agent_llm_config.json"
 
@@ -67,7 +68,11 @@ def build_agent(ctx=None):
         search_memories,
         list_all_categories,
         delete_memory,
-        get_relevant_memories
+        get_relevant_memories,
+        save_memory_v2,
+        search_memories_compact,
+        get_memory_detail,
+        get_memory_stats
     ]
 
     return create_agent(
