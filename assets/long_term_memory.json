@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "content": "用户姓名：张三，喜欢喝咖啡，每天下午3点需要休息一下",
+    "importance": "high",
+    "category": "personal",
+    "keywords": [
+      "姓名",
+      "偏好",
+      "习惯",
+      "咖啡"
+    ],
+    "created_at": "2026-04-12 09:54:32",
+    "access_count": 1,
+    "last_accessed": "2026-04-12 09:54:55"
+  },
+  {
+    "id": "2",
+    "content": "正在进行关于AI助手的项目，项目截止日期是下个月15号",
+    "importance": "high",
+    "category": "project",
+    "keywords": [
+      "项目",
+      "AI助手",
+      "截止日期"
+    ],
+    "created_at": "2026-04-12 09:54:35",
+    "access_count": 1,
+    "last_accessed": "2026-04-12 09:54:55"
+  }
+]
