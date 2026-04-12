@@ -14,6 +14,8 @@ from tools.file_tools import read_file, write_file, list_files
 from tools.reminder_tools import add_reminder, list_reminders, complete_reminder, delete_reminder
 from tools.memory_tools import save_memory, search_memories, list_all_categories, delete_memory, get_relevant_memories
 from tools.memory_tools_v2 import save_memory_v2, search_memories_compact, get_memory_detail, get_memory_stats
+from tools.storage_manager import analyze_storage_status, optimize_storage, restore_from_archive
+from tools.feishu_integration import setup_feishu_webhook, check_feishu_config, send_feishu_message, send_reminder_to_feishu
 
 LLM_CONFIG = "config/agent_llm_config.json"
 
@@ -72,7 +74,14 @@ def build_agent(ctx=None):
         save_memory_v2,
         search_memories_compact,
         get_memory_detail,
-        get_memory_stats
+        get_memory_stats,
+        analyze_storage_status,
+        optimize_storage,
+        restore_from_archive,
+        setup_feishu_webhook,
+        check_feishu_config,
+        send_feishu_message,
+        send_reminder_to_feishu
     ]
 
     return create_agent(

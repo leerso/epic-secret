@@ -14,8 +14,8 @@
       "地址"
     ],
     "created_at": "2026-04-12 10:02:15",
-    "access_count": 2,
-    "last_accessed": "2026-04-12 10:03:12"
+    "access_count": 3,
+    "last_accessed": "2026-04-12 11:12:18"
   },
   {
     "id": "1",
@@ -29,8 +29,8 @@
       "咖啡"
     ],
     "created_at": "2026-04-12 09:54:32",
-    "access_count": 2,
-    "last_accessed": "2026-04-12 10:02:42"
+    "access_count": 3,
+    "last_accessed": "2026-04-12 11:12:18"
   },
   {
     "id": "2",
@@ -43,7 +43,99 @@
       "截止日期"
     ],
     "created_at": "2026-04-12 09:54:35",
-    "access_count": 2,
-    "last_accessed": "2026-04-12 10:02:42"
+    "access_count": 3,
+    "last_accessed": "2026-04-12 11:12:18"
+  },
+  {
+    "id": "4",
+    "title": "老袁个人信息和工作偏好",
+    "summary": "- 姓名：老袁\n- 联系方式：飞书\n- 工作风格偏好：喜欢想多点子，坚持最小MVP执行策略，快速试错小步快跑",
+    "content": "- 姓名：老袁\n- 联系方式：飞书\n- 工作风格偏好：喜欢想多点子，坚持最小MVP执行策略，快速试错小步快跑",
+    "importance": "critical",
+    "category": "personal",
+    "keywords": [
+      "老袁",
+      "个人信息",
+      "偏好",
+      "MVP",
+      "工作风格"
+    ],
+    "created_at": "2026-04-12 11:11:00",
+    "access_count": 1,
+    "last_accessed": "2026-04-12 11:12:18"
+  },
+  {
+    "id": "5",
+    "title": "EpicArena.cn 域名和部署现状",
+    "summary": "项目依托自有域名 EpicArena.cn，当前部署现状：\n- ai. 二级域名：部署AI全行业多职位（192个）\n- game. 二级域名：部署麻将游戏（支持...",
+    "content": "项目依托自有域名 EpicArena.cn，当前部署现状：\n- ai. 二级域名：部署AI全行业多职位（192个）\n- game. 二级域名：部署麻将游戏（支持多地方玩法）\n- tool/eud 等二级域名：框架已部署\n- 主域名：仅部署基本结构，预留8-10个全部通信端口接口，暂未启动，预留未来扩展\n\n项目推进策略：借助力AI工具的东风，多点子发散，采用最小MVP试运作方式",
+    "importance": "high",
+    "category": "ai-project",
+    "keywords": [
+      "域名",
+      "部署",
+      "EpicArena.cn",
+      "二级域名",
+      "AI项目",
+      "麻将"
+    ],
+    "created_at": "2026-04-12 11:11:07",
+    "access_count": 1,
+    "last_accessed": "2026-04-12 11:12:18"
+  },
+  {
+    "id": "6",
+    "title": "项目硬件资源配置",
+    "summary": "项目使用的硬件资源配置：\n- 云服务器：阿里云轻量主机\n- 自有域名：EpicArena.cn，已分配二级域名包括 ai/tool/game/due/job 等...",
+    "content": "项目使用的硬件资源配置：\n- 云服务器：阿里云轻量主机\n- 自有域名：EpicArena.cn，已分配二级域名包括 ai/tool/game/due/job 等\n- 本地工作设备：MAC mini、thinkpad p15v 工作电脑、手机",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "硬件",
+      "阿里云",
+      "域名",
+      "EpicArena.cn",
+      "服务器"
+    ],
+    "created_at": "2026-04-12 11:11:19",
+    "access_count": 0,
+    "last_accessed": null
+  },
+  {
+    "id": "7",
+    "title": "项目软件资源与开发工具",
+    "summary": "已开通的软件资源和工具：\n- 火山引擎：Arkclaw小龙虾轻量版，开通6个月\n- 腾讯：Workbuddy 免费版\n\n当前开发方式：在豆包App讨论获取方案，...",
+    "content": "已开通的软件资源和工具：\n- 火山引擎：Arkclaw小龙虾轻量版，开通6个月\n- 腾讯：Workbuddy 免费版\n\n当前开发方式：在豆包App讨论获取方案，手动复制命令安排Workbuddy执行",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "软件",
+      "工具",
+      "火山引擎",
+      "Arkclaw",
+      "Workbuddy",
+      "开发"
+    ],
+    "created_at": "2026-04-12 11:11:31",
+    "access_count": 0,
+    "last_accessed": null
+  },
+  {
+    "id": "8",
+    "title": "项目远景目标与暖通设计计划",
+    "summary": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远...",
+    "content": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远景目标：**\n1. 企业AI质检轻工程落地\n2. 开展收费培训，培养对应岗位人才\n3. 承接外地工程项目时，优先安排培训会员施工",
+    "importance": "high",
+    "category": "ai-project",
+    "keywords": [
+      "目标",
+      "远景",
+      "暖通设计",
+      "培训",
+      "AI质检"
+    ],
+    "created_at": "2026-04-12 11:11:45",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
