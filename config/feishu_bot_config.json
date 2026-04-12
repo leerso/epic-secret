@@ -1,0 +1,10 @@
+{
+  "app_id": "cli_a9449b8d74bb1bd3",
+  "app_secret": "l2IW97DtuZOlVQgkJP1HBeehAZHAbVj8",
+  "verification_token": "yaIN6Zeuz4AFg85C6TMLzhMFYLpGFSMv",
+  "encrypt_key": "epic",
+  "bot_name": "Epic",
+  "host": "0.0.0.0",
+  "port": 9000,
+  "domain": "feishu.epicarena.cn"
+}
