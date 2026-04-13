@@ -7,7 +7,7 @@ from typing import Optional
 
 
 # 飞书配置存储路径
-FEISHU_CONFIG = os.path.join(os.getenv("COZE_WORKSPACE_PATH", "/workspace/projects"), "config", "feishu_config.json")
+FEISHU_CONFIG = os.path.join(os.getenv("COZE_WORKSPACE_PATH", "/workspace/projects"), "assets", "config", "feishu_config.json")
 
 
 def _ensure_config_file():
