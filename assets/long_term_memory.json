@@ -14,37 +14,8 @@
       "地址"
     ],
     "created_at": "2026-04-12 10:02:15",
-    "access_count": 4,
-    "last_accessed": "2026-04-13 08:36:14"
-  },
-  {
-    "id": "1",
-    "content": "用户姓名：张三，喜欢喝咖啡，每天下午3点需要休息一下",
-    "importance": "high",
-    "category": "personal",
-    "keywords": [
-      "姓名",
-      "偏好",
-      "习惯",
-      "咖啡"
-    ],
-    "created_at": "2026-04-12 09:54:32",
-    "access_count": 4,
-    "last_accessed": "2026-04-13 08:36:14"
-  },
-  {
-    "id": "2",
-    "content": "正在进行关于AI助手的项目，项目截止日期是下个月15号",
-    "importance": "high",
-    "category": "project",
-    "keywords": [
-      "项目",
-      "AI助手",
-      "截止日期"
-    ],
-    "created_at": "2026-04-12 09:54:35",
-    "access_count": 4,
-    "last_accessed": "2026-04-13 08:36:14"
+    "access_count": 6,
+    "last_accessed": "2026-04-13 09:27:01"
   },
   {
     "id": "4",
@@ -61,8 +32,37 @@
       "工作风格"
     ],
     "created_at": "2026-04-12 11:11:00",
-    "access_count": 2,
-    "last_accessed": "2026-04-13 08:36:14"
+    "access_count": 4,
+    "last_accessed": "2026-04-13 09:27:01"
+  },
+  {
+    "id": "1",
+    "content": "用户姓名：张三，喜欢喝咖啡，每天下午3点需要休息一下",
+    "importance": "high",
+    "category": "personal",
+    "keywords": [
+      "姓名",
+      "偏好",
+      "习惯",
+      "咖啡"
+    ],
+    "created_at": "2026-04-12 09:54:32",
+    "access_count": 6,
+    "last_accessed": "2026-04-13 09:27:01"
+  },
+  {
+    "id": "2",
+    "content": "正在进行关于AI助手的项目，项目截止日期是下个月15号",
+    "importance": "high",
+    "category": "project",
+    "keywords": [
+      "项目",
+      "AI助手",
+      "截止日期"
+    ],
+    "created_at": "2026-04-12 09:54:35",
+    "access_count": 6,
+    "last_accessed": "2026-04-13 09:27:01"
   },
   {
     "id": "5",
@@ -80,8 +80,26 @@
       "麻将"
     ],
     "created_at": "2026-04-12 11:11:07",
-    "access_count": 2,
-    "last_accessed": "2026-04-13 08:36:14"
+    "access_count": 4,
+    "last_accessed": "2026-04-13 09:27:01"
+  },
+  {
+    "id": "8",
+    "title": "项目远景目标与暖通设计计划",
+    "summary": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远...",
+    "content": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远景目标：**\n1. 企业AI质检轻工程落地\n2. 开展收费培训，培养对应岗位人才\n3. 承接外地工程项目时，优先安排培训会员施工",
+    "importance": "high",
+    "category": "ai-project",
+    "keywords": [
+      "目标",
+      "远景",
+      "暖通设计",
+      "培训",
+      "AI质检"
+    ],
+    "created_at": "2026-04-12 11:11:45",
+    "access_count": 1,
+    "last_accessed": "2026-04-13 09:27:01"
   },
   {
     "id": "6",
@@ -98,8 +116,8 @@
       "服务器"
     ],
     "created_at": "2026-04-12 11:11:19",
-    "access_count": 0,
-    "last_accessed": null
+    "access_count": 1,
+    "last_accessed": "2026-04-13 09:27:01"
   },
   {
     "id": "7",
@@ -117,25 +135,7 @@
       "开发"
     ],
     "created_at": "2026-04-12 11:11:31",
-    "access_count": 0,
-    "last_accessed": null
-  },
-  {
-    "id": "8",
-    "title": "项目远景目标与暖通设计计划",
-    "summary": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远...",
-    "content": "项目近期与远期目标：\n\n**近期计划：**\n- 尽快完成上线，之后增加运营内容\n- 结合老袁本职暖通设计，计划做国标/设计/预算/报价等内容的具体实例\n\n**远景目标：**\n1. 企业AI质检轻工程落地\n2. 开展收费培训，培养对应岗位人才\n3. 承接外地工程项目时，优先安排培训会员施工",
-    "importance": "high",
-    "category": "ai-project",
-    "keywords": [
-      "目标",
-      "远景",
-      "暖通设计",
-      "培训",
-      "AI质检"
-    ],
-    "created_at": "2026-04-12 11:11:45",
-    "access_count": 0,
-    "last_accessed": null
+    "access_count": 1,
+    "last_accessed": "2026-04-13 09:27:01"
   }
 ]
