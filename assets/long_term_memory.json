@@ -429,5 +429,23 @@
     "created_at": "2026-04-14 17:15:05",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "27",
+    "title": "误会澄清：iZwz93uizjttuzyb96khrxZ和8.129.3.49是同一台服务器",
+    "summary": "澄清说明：\n\nworkbuddy反馈发现两台服务器：\n- 阿里云实例 iZwz93uizjttuzyb96khrxZ（可登录）\n- 独立服务器 8.129.3....",
+    "content": "澄清说明：\n\nworkbuddy反馈发现两台服务器：\n- 阿里云实例 iZwz93uizjttuzyb96khrxZ（可登录）\n- 独立服务器 8.129.3.49（SSH连不上）\n\n老袁澄清：这是同一台服务器！\n- iZwz93uizjttuzyb96khrxZ 是阿里云实例的内部ID\n- 8.129.3.49 是这台实例的公网IP地址\n- 并不是两台不同的服务器，就是同一台\n\n结论：\n- 原方案不变：就在这台阿里云轻量主机上部署hermes\n- 误会澄清，不影响部署进度，继续推进即可",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "hermes",
+      "澄清",
+      "误会",
+      "同一台服务器",
+      "阿里云"
+    ],
+    "created_at": "2026-04-14 17:19:06",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
