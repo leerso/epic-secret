@@ -564,5 +564,23 @@
     "created_at": "2026-04-15 10:15:30",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "35",
+    "title": "GitHub仓库权限规划：全部私有，放在老袁账号组织下",
+    "summary": "GitHub仓库权限规划结论：\n\n1. 所有EpicArena项目仓库都创建为私有仓库\n   - 理由：项目还在开发阶段，未发布MVP，需要保密；包含配置相关信...",
+    "content": "GitHub仓库权限规划结论：\n\n1. 所有EpicArena项目仓库都创建为私有仓库\n   - 理由：项目还在开发阶段，未发布MVP，需要保密；包含配置相关信息，私有更安全；GitHub个人账号免费够用，不用花钱\n   - 时机：MVP发布准备开源时再改成公开，一键操作很方便\n\n2. 仓库放在老袁个人GitHub账号创建的组织下\n   - 组织名建议：epicarena\n   - 所有仓库路径格式：epicarena/仓库名\n   - 老袁作为组织所有者，完全掌控所有权限\n   - 老袁随时可以登录查看、管理，就算很久没上，找回密码就能用\n\n3. 权限结构：\n   GitHub组织 epicarena（所有者：老袁）\n   ├── epicarena（私有）→ EpicArena全站主项目\n   ├── epic-secret（私有）→ Epic秘书独立仓库\n   ├── hermes（私有）→ hermes测试机器人\n   └── ... 其他项目\n\n4. 部署：阿里云部署可以用Deploy Key读取私有仓库，只给读权限，安全可控。",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "GitHub",
+      "权限",
+      "私有仓库",
+      "组织",
+      "老袁账号"
+    ],
+    "created_at": "2026-04-15 10:19:11",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
