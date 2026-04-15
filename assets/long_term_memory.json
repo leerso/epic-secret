@@ -487,5 +487,23 @@
     "created_at": "2026-04-15 08:17:46",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "30",
+    "title": "团队共识文档更新：V1.3.0，hermes状态更新",
+    "summary": "更新内容：\n1. 文档版本从 V1.2.0 升级到 V1.3.0\n2. 生效日期更新为 20260418\n3. hermes状态更新：从\"申请中\"改为\"已部署到...",
+    "content": "更新内容：\n1. 文档版本从 V1.2.0 升级到 V1.3.0\n2. 生效日期更新为 20260418\n3. hermes状态更新：从\"申请中\"改为\"已部署到阿里云轻量主机，已绑定飞书，测试角色正常工作中\"\n4. 新增hermes当前具体任务：负责测试验收Epic秘书和workbuddy的飞书部署工作\n5. 补充了部署位置信息：实例ID iZwz93uizjttuzyb96khrxZ，公网IP 8.129.3.49\n6. 更新了arkclaw状态标注：已直连飞书，无需重新部署\n7. 更新了workbuddy状态：需要部署到阿里云轻量主机并绑定飞书\n8. 更新任务分配原则：hermes已上线可用，可分配测试验收任务\n9. 最后更新日期更新为2026年4月18日\n\n文件路径：assets/docs/EpicArena智能体团队共识.md",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "团队共识",
+      "文档更新",
+      "版本升级",
+      "hermes",
+      "状态更新"
+    ],
+    "created_at": "2026-04-15 08:25:03",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
