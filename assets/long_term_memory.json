@@ -535,5 +535,34 @@
     "created_at": "2026-04-15 09:53:54",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "33",
+    "title": "GitHub仓库规划：Epic秘书独立建仓，workbuddy不单独建仓",
+    "summary": "问题：Epic秘书和workbuddy是否有独立GitHub仓库？\n\n结论：\n1. Epic秘书：需要新建独立GitHub仓库，仓库名建议 epicarena/...",
+    "content": "问题：Epic秘书和workbuddy是否有独立GitHub仓库？\n\n结论：\n1. Epic秘书：需要新建独立GitHub仓库，仓库名建议 epicarena/epic-secret\n   - 原因：Epic秘书是独立可部署服务，需要在不同服务器部署拉取，独立仓库更方便\n   - 当前状态：代码已在本地，还没推送，待新建\n\n2. workbuddy：不需要单独建GitHub仓库\n   - 原因：workbuddy本身就是开发角色，开发代码放在EpicArena主项目仓库对应模块即可\n   - 部署的时候从EpicArena主仓拉取对应目录\n\n3. hermes：已有仓库，已经部署完成\n\n推荐方案：模块化，需要独立部署的服务单独建仓，不需要的放在主仓，符合MVP思路。",
+    "importance": "medium, ",
+    "category": "general",
+    "keywords": [],
+    "created_at": "2026-04-15 10:15:19",
+    "access_count": 0,
+    "last_accessed": null
+  },
+  {
+    "id": "34",
+    "title": "GitHub仓库规划：Epic秘书独立建仓，workbuddy不单独建仓",
+    "summary": "问题：Epic秘书和workbuddy是否有独立GitHub仓库？\n\n当前状态：\n- hermes：已有仓库，已经部署完成 ✅\n- Epic秘书：代码已完成，在...",
+    "content": "问题：Epic秘书和workbuddy是否有独立GitHub仓库？\n\n当前状态：\n- hermes：已有仓库，已经部署完成 ✅\n- Epic秘书：代码已完成，在本地，还没有推送到GitHub，需要新建仓库\n- workbuddy：开发角色，代码在本地EpicArena主项目，不需要单独建仓\n\n结论方案：\n1. Epic秘书 → 新建独立GitHub仓库，建议仓库名：`epicarena/epic-secret`\n   - 原因：Epic秘书是独立可部署服务，需要在阿里云等服务器拉取部署，独立仓库更方便\n   - 部署时直接clone整个仓库就能用，不用拉整个大项目\n\n2. workbuddy → 不需要单独建GitHub仓库\n   - 原因：workbuddy本身就是开发角色，他开发的代码放在EpicArena主项目仓库对应模块目录即可\n   - 部署的时候从EpicArena主仓拉取对应目录\n\n推荐理由：\n- 模块化，需要独立部署的服务单独建仓\n- 不需要独立部署的开发模块放在主仓\n- 符合最小MVP思路，不浪费仓库，管理清晰",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "GitHub",
+      "仓库规划",
+      "Epic秘书",
+      "workbuddy"
+    ],
+    "created_at": "2026-04-15 10:15:30",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
