@@ -612,5 +612,23 @@
     "created_at": "2026-04-15 10:36:19",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "38",
+    "title": "GitHub用户名修改计划：leerso → EpicArena/epicarena",
+    "summary": "老袁原来GitHub用户名为leerso，想要改成EpicArena相关名字。\n\n可选方案：\n1. 直接改个人用户名为EpicArena（或epicarena）...",
+    "content": "老袁原来GitHub用户名为leerso，想要改成EpicArena相关名字。\n\n可选方案：\n1. 直接改个人用户名为EpicArena（或epicarena）：简单，所有项目都在这个名下\n2. 个人用户名保持leerso，新建组织epicarena：更规范，项目和个人分开，推荐\n\n推荐方案二：新建组织epicarena，所有EpicArena项目放在组织下。\n\n修改步骤：\n1. 登录GitHub → 设置 → Profile → 修改Username → 检查可用 → 确认\n2. 如果建组织：右上角+ → New organization → 填名 → 免费计划 → 创建\n\n注意事项：\n- 修改用户名后，本地仓库需要更新remote地址\n- GitHub会自动重定向老地址，不影响现有链接",
+    "importance": "medium",
+    "category": "ai-project",
+    "keywords": [
+      "GitHub",
+      "用户名",
+      "修改",
+      "组织",
+      "epicarena"
+    ],
+    "created_at": "2026-04-15 14:56:46",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
