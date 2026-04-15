@@ -466,5 +466,26 @@
     "created_at": "2026-04-14 21:20:59",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "29",
+    "title": "Epic秘书和workbuddy部署到飞书详细工作计划",
+    "summary": "任务：部署Epic秘书和workbuddy到阿里云轻量主机并绑定飞书，hermes负责测试验收。\n\n当前状态：\n- hermes：已部署阿里云，已绑定飞书，测试...",
+    "content": "任务：部署Epic秘书和workbuddy到阿里云轻量主机并绑定飞书，hermes负责测试验收。\n\n当前状态：\n- hermes：已部署阿里云，已绑定飞书，测试角色正常工作\n- arkclaw：已直连飞书，不需要重新部署\n- Epic秘书：当前只有复读版本，需要重新部署到阿里云绑定飞书\n- workbuddy：本地开发调试，需要部署阿里云绑定飞书\n\n工作计划步骤：\n\n步骤1：部署Epic秘书\n- 创建目录 /opt/epic-secret，clone代码\n- 选择独立端口（如8801）\n- 配置文件填写：端口、飞书webhook、数据库连接\n- Nginx配置反向代理 + HTTPS证书 + IP白名单（只放行飞书官方IP）\n- 配置systemd守护进程，普通用户运行（不用root）\n- 测试飞书收发正常\n\n步骤2：部署workbuddy\n- 创建目录 /opt/workbuddy，clone代码\n- 选择独立端口（如8802）\n- 其余配置步骤和Epic秘书相同\n- 测试飞书收发正常\n\n步骤3：安全加固检查清单（必须逐项检查）\n☑ IP白名单：Nginx只放行飞书官方IP + 127.0.0.1\n☑ 开启飞书签名验证，拒绝非法请求\n☑ 配置文件权限：chmod 600 config.json\n☑ 进程以普通用户运行，不使用root\n☑ 全部走Nginx反向代理，不直接暴露端口\n☑ 全部使用HTTPS，不开放HTTP\n\n信息同步方案（老袁确定）：\n- Epic秘书：部署阿里云，长期记忆持久化存储\n- workbuddy：本地是主要开发环境，阿里云机器人只做消息中转\n- 策略：如果token消耗高，可以不做双向信息同步，不影响核心功能\n- 长期记忆主要由Epic秘书维护，workbuddy按需获取即可\n\n数据库表单说明：\n- 已有建好的数据库，不需要新建\n- 主要表单：memories(长期记忆)、reminders(提醒)、tasks(任务)、deployments(部署信息)\n- 各智能体使用独立配置，共享数据库，不冲突\n- 直接填写连接信息即可使用\n\n步骤4：hermes全流程联调测试\n- 测试完整协作链路：老袁→Epic→workbuddy→hermes→老袁\n- 检查消息通畅，每个环节能正常接收回复\n- 检查安全加固是否生效\n- 检查资源占用是否正常\n\n步骤5：交付\n- 整理部署配置信息\n- 出具安全检查报告\n- 出具测试报告\n- 汇报老袁验收\n\n交付时间：建议一周内完成",
+    "importance": "high",
+    "category": "ai-project",
+    "keywords": [
+      "工作计划",
+      "部署",
+      "飞书",
+      "Epic秘书",
+      "workbuddy",
+      "hermes",
+      "安全加固",
+      "信息同步"
+    ],
+    "created_at": "2026-04-15 08:17:46",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
