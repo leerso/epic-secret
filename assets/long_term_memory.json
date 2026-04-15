@@ -505,5 +505,35 @@
     "created_at": "2026-04-15 08:25:03",
     "access_count": 0,
     "last_accessed": null
+  },
+  {
+    "id": "31",
+    "title": "任务：整理项目目录结构并更新workbuddy角色定义",
+    "summary": "任务：整理项目目录结构，更新workbuddy角色定义。\n\n任务要求：\n1. 在项目根目录创建 CLAM 文件夹（实际要求是 CLAW，名字为 CLAM 是口误...",
+    "content": "任务：整理项目目录结构，更新workbuddy角色定义。\n\n任务要求：\n1. 在项目根目录创建 CLAM 文件夹（实际要求是 CLAW，名字为 CLAM 是口误，正确是 CLAW），workbuddy角色根目录必须叫CLAW\n2. 将团队共识文档放在CLAW目录，同时放置workbuddy自己的角色定义文件\n3. 老袁确认的详细项目资料放在docs目录，让所有智能体了解\n4. 按业务板块分类整理目录：EpicArena全站、扣子编程客户端、hermes、Epic秘书、暖通AI各归其位\n5. 修正乱码文件名\n6. 清理无关临时文件，删重补漏\n\n目标目录结构：\n项目根/\n├── CLAW/ → workbuddy角色根目录\n│   ├── EpicArena智能体团队共识.md\n│   └── workbuddy角色定义.md\n├── docs/ → 文档目录\n│   ├── 需求文档\n│   └── 项目背景资料\n├── src/ → 源代码按业务板块\n│   ├── epicarena/ → 全站\n│   ├── kouziclient/ → 扣子客户端\n│   ├── hermes/ → 测试机器人\n│   ├── epic-secret/ → Epic秘书\n│   └── hvac-ai/ → 暖通AI\n├── config/ → 配置\n├── assets/ → 静态资源\n└── temp/ → 临时文件\n\nworkbuddy更新后角色定义：\n- 角色：EpicArena项目核心开发工程师，游戏子项目负责人\n- 当前状态：已调试游戏子项目，框架和AI板块已完成；主要开发环境老袁本地；前后端连通；需要部署阿里云绑定飞书\n- 职责：游戏开发、全站框架、UI设计、本地调试、智能体部署\n- 当前优先级：整理目录 → 部署Epic秘书 → 部署workbuddy → 推进全站 → 推进客户端\n\n验收标准：\n- CLAW文件夹存在且名字正确\n- 核心文档到位\n- 按业务板块分类完成\n- 乱码修正\n- 临时文件清理\n\n交付时间：建议2-3天完成",
+    "importance": "}",
+    "category": "general",
+    "keywords": [],
+    "created_at": "2026-04-15 09:53:39",
+    "access_count": 0,
+    "last_accessed": null
+  },
+  {
+    "id": "32",
+    "title": "任务：整理项目目录结构并更新workbuddy角色定义",
+    "summary": "任务：整理项目目录结构，更新workbuddy角色定义。\n\n任务要求：\n1. 在项目根目录创建 CLAW 文件夹（口误说成CLAM），workbuddy角色根目...",
+    "content": "任务：整理项目目录结构，更新workbuddy角色定义。\n\n任务要求：\n1. 在项目根目录创建 CLAW 文件夹（口误说成CLAM），workbuddy角色根目录必须叫CLAW\n2. 将团队共识文档放在CLAW目录，同时放置workbuddy自己的角色定义文件\n3. 老袁确认的详细项目资料放在docs目录，让所有智能体了解\n4. 按业务板块分类整理目录：EpicArena全站、扣子编程客户端、hermes、Epic秘书、暖通AI各归其位\n5. 修正乱码文件名\n6. 清理无关临时文件，删重补漏\n\n目标目录结构：\n项目根/\n├── CLAW/ → workbuddy角色根目录\n│   ├── EpicArena智能体团队共识.md\n│   └── workbuddy角色定义.md\n├── docs/ → 文档目录\n│   ├── 需求文档\n│   └── 项目背景资料\n├── src/ → 源代码按业务板块\n│   ├── epicarena/ → EpicArena全站\n│   ├── kouziclient/ → 扣子编程客户端\n│   ├── hermes/ → hermes测试机器人\n│   ├── epic-secret/ → Epic秘书\n│   └── hvac-ai/ → 暖通工程AI\n├── config/ → 配置文件目录\n├── assets/ → 静态资源\n└── temp/ → 临时文件\n\nworkbuddy更新后角色定义：\n- 角色：EpicArena项目核心开发工程师，游戏子项目负责人\n- 当前状态：已调试游戏子项目，总体框架及AI板块已完成；主要开发环境在老袁本地电脑；前后端连通无报错；需要部署到阿里云轻量主机绑定飞书\n- 核心职责：游戏子项目开发维护、EpicArena全站框架开发、UI系统设计实现、本地代码调试联调、智能体申请部署配置\n- 协作关系：对接老袁（需求）→ Epic秘书（任务协调）→ hermes（测试验收）\n- 当前优先级：1.整理项目目录 → 2.部署Epic秘书到飞书 → 3.部署workbuddy到飞书 → 4.继续推进EpicArena全站开发 → 5.推进扣子编程客户端开发\n\n验收标准：\n- CLAW文件夹存在且名字正确\n- 核心文档全部放置到位\n- 所有文件按业务板块分类完成\n- 乱码文件名全部修正\n- 无关临时文件已经清理\n\n交付时间：建议2-3天内完成",
+    "importance": "high",
+    "category": "ai-project",
+    "keywords": [
+      "目录整理",
+      "workbuddy",
+      "角色定义",
+      "项目结构",
+      "分类整理"
+    ],
+    "created_at": "2026-04-15 09:53:54",
+    "access_count": 0,
+    "last_accessed": null
   }
 ]
